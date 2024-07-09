@@ -1,0 +1,170 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
+
+.btn-primary {
+  background-color: #fd6e0a;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
+.Primary-color {
+  color: rgb(253, 110, 10);
+}
+
+.dark2 {
+  color: rgb(71, 71, 71);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 45px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 45px;
+  font-weight: 800px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.banner-content {
+  max-width: 560px;
+  margin-left: 140px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 60px;
+  background-color: aliceblue;
+}
+
+.about-header {
+  font-size: 40px;
+}
+
+.skill-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+.skill {
+  height: 220px;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+
+.resume-container {
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  gap: 20px;
+}
+
+.text-aligns {
+  margin-left: 700px;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  width: 50%;
+  text-align: center;
+}
+
+.footer-section {
+  background-color: #f5d442;
+  display: flex;
+  margin-top: 20px;
+}
+
+form [type="text"],
+[type="email"],
+[type="textarea"] {
+  padding: 7px;
+  display: block;
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-title{
+font-size: 45px;
+font-weight: 800px;
+}
+.Primary-color{
+ color:rgb(253, 110, 10);
+}
+nav ul{
+  display: flex;
+  align-items: center;
+
+}
+ nav ul li {
+list-style: none;
+margin: 45px;
+ }
+ nav ul li a{
+  text-decoration: none;
+ }
+  */
